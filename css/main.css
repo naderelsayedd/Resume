@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(../fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+*
+{
+    font-family: 'myfont';
+}
+.p-70
+{
+    padding: 70px 0;
+}
+.myBtn
+{
+    color: #fff;
+    background-color: #FF5B00;
+    border: none;
+    padding:15px ;
+    border-radius: 15px;
+    margin: 30px 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+img
+{
+    width: 100%;
+}
+header p 
+{
+    color: #fff;
+}
+
+header .navbar-toggler
+{
+    color: #fff !important;
+}
+header p span
+{
+    color: #00FFDD;
+}
+header 
+{
+    position: fixed;
+    z-index: 546529;
+    width: 100%;
+}
+header .nav-link
+{
+    color: #fff !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.nav-link:hover{color: #fff;}
+
+.navbar .container
+{
+    border-bottom: 2px solid #ffffff62;
+}
+
+/* start home */
+.home 
+{
+    background-color: #191F1E;
+
+}
+.home-child
+{
+    color: #fff;
+    height: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+.home-child .text
+{
+    padding-left:30px ;
+}
+.home .home-child h1
+{
+    margin: 30px 0;  
+    font-size: 50px;  
+}
+.home .home-child p {font-size: 25px;}
+.home .home-child span{color: #00FFDD;}
+.tagImg
+{
+    animation: 3s ease-in-out 0s infinite alternate-reverse none running tagImg;
+}
+
+@keyframes tagImg {
+    0%{transform: translateX(-10px);}
+    100%{transform: translateY(-25px);}
+    
+}
+/* end home */
+
+/* start about */
+.about{
+    background-color: #262E2D;
+    text-align: center;
+}
+.about-img 
+{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-text h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-top: 150px;
+    font-weight: bold;
+}
+.about .parent{
+    border-radius: 15px 60px;
+    box-shadow: 10px 10px 15px ;padding: 10px;
+}
+.about p 
+{
+    font-size: 16px;
+    color: #DFDFDF;
+    margin: 100px 0;
+    line-height: 1.72em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.about-text span{color: #FF5B00;}
+.about-text .who {color: #00FFDD;}
+.about h3 {
+    color: #00FFDD;
+}
+
+.about .fa-solid
+{
+    color: #FF5B00;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.about i 
+{margin:0 10px;}
+
+.about  .more {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #191f1ea2;
+    padding: 5px;
+    border-radius: 10px;
+}
+.moreText {margin-top: 100px;}
+.moreText p 
+{
+    display: none;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.getTop
+{
+    transition: all .5s;
+    display: block;
+}
+
+/* end about */
+
+/* start projects */
+.projects {
+    background-color: #191F1E;
+}
+
+.projects .card
+{
+    padding: 10px;
+    background-color: #191f1e81;
+    border: 1px solid #ffffff5d;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.card h5 
+{
+    color: #00FFDD;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p 
+{
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+/* end projects */
+
+/* start contact */
+.contact
+{
+    background-color: #2B2B2B;
+}
+
+.contact-text
+{
+    color: #fff;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contact h2 
+{
+    font-size: 50px;
+}
+.contact p 
+{
+    margin: 20px 0;
+    font-size: 19px;
+    text-align: center;
+}
+/* end contact */
+
+/* start footer */
+.footer {
+    background-color: #262E2D   ;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer span {
+    color: #00FFDD;
+}
+/* end footer */
+
+
