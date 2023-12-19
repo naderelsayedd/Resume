@@ -2,9 +2,6 @@
     font-family: 'myfont';
     src: url(../fonts/Quicksand/static/Quicksand-Regular.ttf);
 }
-.navbar-collapse {
-    background-color : #fff;
-}
 *
 {
     font-family: 'myfont';
