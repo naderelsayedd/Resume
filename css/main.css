@@ -3,7 +3,7 @@
     src: url(../fonts/Quicksand/static/Quicksand-Regular.ttf);
 }
 .navbar-collapse {
-    background : #fff;
+    background-color : #fff;
 }
 *
 {
